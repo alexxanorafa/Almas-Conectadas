@@ -83,23 +83,84 @@ h1 {
 
 /* Ajustes responsivos */
 @media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+
     .menu-item {
-        height: 25px; /* Reduz altura */
-        font-size: 0.8em; /* Fonte menor */
-        padding: 0 6px; /* Padding reduzido */
+        font-size: 0.85rem;
+        padding: 4px 10px;
+        min-height: 28px;
+    }
+
+    .container {
+        padding: 15px;
+        border-radius: 20px;
+        margin: 15px auto;
+    }
+
+    #options-container {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
 }
 
 @media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
     .menu-list {
-        flex-direction: row; /* Empilha os itens */
-        gap: 2px; /* Espaçamento menor */
+        gap: 6px;
     }
 
     .menu-item {
-        height: 20px; /* Altura mais compacta */
-        font-size: 0.55em; /* Fonte menor */
-        padding: 0 3px; /* Padding ainda menor */
+        font-size: 0.75rem;
+        padding: 3px 8px;
+        min-height: 26px;
+    }
+
+    input {
+        width: 95%;
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    #question-container {
+        font-size: 1rem;
+    }
+
+    .option-btn {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    #progress-bar {
+        height: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .menu-item {
+        font-size: 0.7rem;
+    }
+
+    button {
+        min-width: 100px;
+        padding: 8px 15px;
     }
 }
 
