@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo das Almas Conectadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu" aria-label="Menu de navegação">
+        <ul class="menu-list">
+          <li><a href="https://alexxanorafa.github.io/Tempo_e_Sonhos/" class="menu-item" aria-label="Tempo e Sonhos">Tempo e Sonhos</a></li>
+          <li><a href="https://alexxanorafa.github.io/posicionamentodosastros/" class="menu-item">Mapa Astral</a></li>
+          <li><a href="https://alexxanorafa.github.io/Aneis_da_Sabedoria/" class="menu-item">Anéis da Sabedoria</a></li>
+          <li><a href="https://alexxanorafa.github.io/TarodeMarselha/" class="menu-item" aria-label="Tarô de Marselha">Tarô de Marselha</a></li>
+          <li><a href="https://alexxanorafa.github.io/Runas-do-Destino/" class="menu-item" aria-label="Runas do Destino">Runas do Destino</a></li>
+          <li><a href="https://alexxanorafa.github.io/O-Construtor-do-Destino/" class="menu-item" aria-label="O Construtor do Destino">O Construtor do Destino</a></li>
+          <li><a href="https://alexxanorafa.github.io/Tabuleiro-Quantico/" class="menu-item">Tabuleiro Quantico</a></li>
+          <li><a href="https://alexxanorafa.github.io/I-Ching-Virtual/" class="menu-item">I Ching Virtual</a></li>
+          <li><a href="https://alexxanorafa.github.io/Biblioteca-Onirica/" class="menu-item">Biblioteca Onirica</a></li>
+          <li><a href="https://alexxanorafa.github.io/Kabbalah-Interativa/" class="menu-item">Kabbalah Interativa</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div id="start-screen">
+            <h1>Prova das Almas Gêmeas</h1>
+            <p>Insira seus dados para começar a jornada:</p>
+            <input type="text" id="userName" placeholder="Seu nome">
+            <input type="text" id="targetName" placeholder="Nome da alma conexa">
+            <button onclick="startGame()">Iniciar Prova</button>
+        </div>
+
+        <div id="game-screen" class="hidden">
+            <div id="hud">
+                <div id="score">Pontos: <span>0</span>/100</div>
+                <div id="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+            </div>
+            
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+            </div>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <h2 id="result-title"></h2>
+            <p id="result-description"></p>
+            <div id="soul-connection"></div>
+            <button onclick="resetGame()">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
