@@ -215,6 +215,156 @@ const questions = [
         correct: 1,
         explanation: "Fase de união dos opostos"
     },
+    {
+        question: "Na mitologia Zoroastriana, o que são 'Fravashi'?",
+        options: ["Anjos da morte", "Espíritos ancestrais", "Demônios", "Anjos guardiões"],
+        correct: 1,
+        explanation: "Fravashi são espíritos ancestrais que guiam os vivos"
+    },
+    {
+        question: "O que significa 'Silap Inua' para os Inuit?",
+        options: ["Espírito do vento", "Força vital universal", "Deus do mar", "Anjo da neve"],
+        correct: 1,
+        explanation: "Silap Inua é a força vital que conecta todos os seres"
+    },
+    {
+        question: "Qual deusa báltica preside os nascimentos e destinos?",
+        options: ["Laima", "Gabija", "Ragana", "Medeina"],
+        correct: 0,
+        explanation: "Laima controla o destino e os ciclos da vida"
+    },
+    {
+        question: "Na mitologia Basca, quem é Mari?",
+        options: ["Deusa da terra", "Espírito do fogo", "Anjo da morte", "Protetora das florestas"],
+        correct: 0,
+        explanation: "Mari é a deusa-mãe que conecta todas as formas de vida"
+    },
+    {
+        question: "Qual deusa armênia representa amor e fertilidade?",
+        options: ["Anahit", "Astghik", "Nane", "Tir"],
+        correct: 1,
+        explanation: "Astghik é a deusa do amor e das águas sagradas"
+    },
+    {
+        question: "O que descreve o 'Andrógino' no mito de Platão?",
+        options: ["Ser dividido em dois", "Anjo caído", "Deus primordial", "Animal sagrado"],
+        correct: 0,
+        explanation: "Platão descreve humanos como metades buscando completude"
+    },
+    {
+        question: "O que é 'Nommo' para os Dogon?",
+        options: ["Rituais de passagem", "Seres aquáticos sagrados", "Danças rituais", "Instrumentos musicais"],
+        correct: 1,
+        explanation: "Nommo são seres cósmicos que trouxeram sabedoria à humanidade"
+    },
+    {
+        question: "O que é 'Tengri' no Xamanismo Mongol?",
+        options: ["Céu sagrado", "Espírito ancestral", "Rito de passagem", "Animal de poder"],
+        correct: 0,
+        explanation: "Tengri é o céu eterno que unifica todas as almas"
+    },
+    {
+        question: "Qual deus asteca criou os laços matrimoniais?",
+        options: ["Xochipilli", "Xochiquetzal", "Tezcatlipoca", "Quetzalcoatl"],
+        correct: 1,
+        explanation: "Xochiquetzal presidia os relacionamentos e a arte"
+    },
+    {
+        question: "O que é 'Syzygy' no Gnosticismo?",
+        options: ["União divina", "Livro sagrado", "Ritual de purificação", "Demônio"],
+        correct: 0,
+        explanation: "Syzygy representa a união de complementos espirituais"
+    },
+    {
+        question: "O que é 'Pillán' para os Mapuche?",
+        options: ["Espírito ancestral", "Vulcão sagrado", "Linhagem familiar", "Animal totêmico"],
+        correct: 0,
+        explanation: "Pillán são espíritos que conectam gerações"
+    },
+    {
+        question: "Quem é Bathala na mitologia Filipina?",
+        options: ["Deus criador", "Espírito da água", "Guardião das almas", "Anjo da morte"],
+        correct: 0,
+        explanation: "Bathala criou o mundo e as conexões entre seres"
+    },
+    {
+        question: "O que são 'Jiva' no Jainismo?",
+        options: ["Almas individuais", "Rituais", "Deuses menores", "Textos sagrados"],
+        correct: 0,
+        explanation: "Jivas são almas presas no ciclo de renascimentos"
+    },
+    {
+        question: "O que é 'Anhangá' para os Tupi-Guarani?",
+        options: ["Protetor das florestas", "Espírito errante", "Deus do sol", "Anjo da morte"],
+        correct: 1,
+        explanation: "Anhangá guia almas perdidas na natureza"
+    },
+    {
+        question: "O que é 'Noaidi' para os Sami?",
+        options: ["Xamã", "Deus do trovão", "Espírito animal", "Canção sagrada"],
+        correct: 0,
+        explanation: "Noaidi são xamãs que viajam entre mundos"
+    },
+    {
+        question: "Quem era Astarote na mitologia Cananéia?",
+        options: ["Deusa da fertilidade", "Demônio da guerra", "Espírito do mar", "Anjo da luz"],
+        correct: 0,
+        explanation: "Astarote regia laços amorosos e fertilidade"
+    },
+    {
+        question: "Qual loa rege relacionamentos no Vodou?",
+        options: ["Erzulie", "Baron Samedi", "Damballa", "Ogoun"],
+        correct: 0,
+        explanation: "Erzulie Freda é a loa do amor e beleza"
+    },
+    {
+        question: "O que é 'Tjukurpa' para os Aborígenes?",
+        options: ["Tempo dos sonhos", "Rito de passagem", "Arte sagrada", "Dança ritual"],
+        correct: 0,
+        explanation: "Tjukurpa é a realidade ancestral que conecta tudo"
+    },
+    {
+        question: "O que é 'Logos' para os Estóicos?",
+        options: ["Razão universal", "Destino individual", "Virtude", "Paixão"],
+        correct: 0,
+        explanation: "Logos é a força racional que une o cosmos"
+    },
+    {
+        question: "Quem é Pele na mitologia Havaiana?",
+        options: ["Deusa do vulcão", "Espírito do oceano", "Guardião das estrelas", "Ancestral sagrado"],
+        correct: 0,
+        explanation: "Pele representa a força criadora e destrutiva da natureza"
+    },
+    {
+        question: "O que é 'Amazigh' para os Berberes?",
+        options: ["Povo livre", "Montanha sagrada", "Rito de fertilidade", "Linguagem dos deuses"],
+        correct: 0,
+        explanation: "Amazigh simboliza a conexão com a terra ancestral"
+    },
+    {
+        question: "O que é 'Umai' no Xamanismo Siberiano?",
+        options: ["Deusa mãe", "Espírito da caça", "Anjo protetor", "Rito de passagem"],
+        correct: 0,
+        explanation: "Umai protege crianças e conexões familiares"
+    },
+    {
+        question: "Quem eram os Lares na Roma Antiga?",
+        options: ["Deuses domésticos", "Sacerdotes", "Anjos da morte", "Guerreiros"],
+        correct: 0,
+        explanation: "Lares protegiam lares e relações familiares"
+    },
+    {
+        question: "Quem era Baal na mitologia Fenícia?",
+        options: ["Deus da fertilidade", "Rei dos mortos", "Espírito do mar", "Guardião solar"],
+        correct: 0,
+        explanation: "Baal Hadad garantia a união entre terra e céu"
+    },
+    {
+        question: "Qual elemento representa união na Alquimia Chinesa?",
+        options: ["Madeira", "Metal", "Água", "Terra"],
+        correct: 1,
+        explanation: "Metal simboliza força e durabilidade nas relações"
+    }
     // Adicione mais 24 seguindo o padrão...
 ];
 
@@ -234,8 +384,8 @@ function shuffleArray(array) {
 }
 
 function startGame() {
-    userName = document.getElementById('userName').value;
-    targetName = document.getElementById('targetName').value;
+    userName = document.getElementById('userName').value.trim();
+    targetName = document.getElementById('targetName').value.trim();
     
     if(!userName || !targetName) {
         alert("Insira ambos os nomes!");
@@ -312,33 +462,63 @@ function showFinalResult() {
     document.getElementById('game-screen').classList.add('hidden');
     document.getElementById('result-screen').classList.remove('hidden');
     
-    const connectionStrength = 100 - calculateConnection();
+    // Cálculo híbrido
+    const nameScore = 100 - calculateConnection();
+    const quizScore = score;
+    const totalScore = Math.round((nameScore * 0.5) + (quizScore * 0.5));
+
     const resultTypes = [
-        {type: "Almas Gêmeas Cármicas", min: 80},
-        {type: "Parceiros Espirituais", min: 60},
-        {type: "Professores Mutuos", min: 40},
-        {type: "Desafios Kármicos", min: 0}
+        {type: "Almas Gêmeas Cármicas", min: 80, desc: "Ligação ancestral com forte propósito evolutivo"},
+        {type: "Parceiros Espirituais", min: 60, desc: "Conexão para crescimento e aprendizado mútuo"},
+        {type: "Professores Mutuos", min: 40, desc: "Relação de ensino e aprendizagem recíproca"},
+        {type: "Desafios Kármicos", min: 0, desc: "Oportunidade para resolução de questões passadas"}
     ];
 
-    const result = resultTypes.find(r => connectionStrength >= r.min);
+    const result = resultTypes.find(r => totalScore >= r.min);
     
+    // Construção do resultado
     document.getElementById('result-title').textContent = `${userName} & ${targetName}`;
-    document.getElementById('result-description').textContent = result.type;
+    document.getElementById('result-description').innerHTML = `
+        <h2 style="color: #d4b192; margin: 15px 0;">${result.type}</h2>
+        <p style="font-size: 1.1em;">${result.desc}</p>
+    `;
+
     document.getElementById('soul-connection').innerHTML = `
-        <h3>Nível de Conexão</h3>
-        <div style="background: #2c3e50; height: 20px; border-radius: 10px; margin: 15px 0;">
-            <div style="width: ${connectionStrength}%; background: #d4b192; height: 100%; border-radius: 10px; transition: width 1s"></div>
+        <div style="margin: 20px 0;">
+            <div style="display: flex; justify-content: space-between; margin: 10px 0;">
+                <span>Conexão pelos Nomes:</span>
+                <span>${nameScore}%</span>
+            </div>
+            <div style="background: #2c3e50; height: 10px; border-radius: 5px;">
+                <div style="width: ${nameScore}%; background: #d4b192; height: 100%; border-radius: 5px; transition: width 1s;"></div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; margin: 10px 0;">
+                <span>Sintonia Espiritual:</span>
+                <span>${quizScore}%</span>
+            </div>
+            <div style="background: #2c3e50; height: 10px; border-radius: 5px;">
+                <div style="width: ${quizScore}%; background: #d4b192; height: 100%; border-radius: 5px; transition: width 1s;"></div>
+            </div>
         </div>
-        <p>${getConnectionMessage(connectionStrength)}</p>
+
+        <h3 style="color: #d4b192; margin: 20px 0;">Conexão Total: ${totalScore}%</h3>
+        <div style="background: #2c3e50; height: 20px; border-radius: 10px;">
+            <div style="width: ${totalScore}%; background: #d4b192; height: 100%; border-radius: 10px; transition: width 1s;"></div>
+        </div>
+
+        <p style="font-size: 1.2em; margin-top: 20px; color: #d4b192;">
+            ${getConnectionMessage(totalScore)}
+        </p>
     `;
 }
 
 function getConnectionMessage(strength) {
     const messages = [
-        "Uma jornada de aprendizado mútuo",
-        "Conexão com propósito espiritual",
-        "Ligação que transcende o tempo",
-        "Encontro marcado pelo destino"
+        "Uma jornada de crescimento conjunto se inicia",
+        "Conexão com lições espirituais importantes",
+        "Ligação que transcende circunstâncias",
+        "Encontro com propósito divino"
     ];
     return messages[Math.floor(strength/25)];
 }
