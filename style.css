@@ -85,7 +85,7 @@ h2 {
 
 .menu {
     position: absolute;
-    top: -500px;
+    top: -1500px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
