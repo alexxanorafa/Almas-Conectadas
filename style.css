@@ -311,3 +311,14 @@ button {
     border-radius: 15px;
     margin: 30px 0;
 }
+/* Adiciona no final do style.css */
+#mode-selector button {
+    padding: 12px 20px;
+    min-width: 160px;
+    transition: all 0.3s;
+}
+
+#mode-selector button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(212, 177, 146, 0.3);
+}
