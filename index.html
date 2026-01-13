@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -65,7 +64,21 @@
             <h2>Insira seus dados para começar a jornada:</h2>
             <input type="text" id="userName" placeholder="Seu nome">
             <input type="text" id="targetName" placeholder="Nome da alma conexa">
-            <button onclick="startGame()">Iniciar Prova</button>
+            
+            <div id="mode-selector" style="margin: 20px auto; text-align: center;">
+                <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
+                    <button onclick="startConnectionTest()" style="background-color: #d4b192; color: #2c3e50; padding: 12px 20px; min-width: 160px; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">
+                        Teste de Conexão
+                    </button>
+                    <button onclick="startQuizOnly()" style="background-color: #2c3e50; color: #d4b192; border: 2px solid #d4b192; padding: 12px 20px; min-width: 160px; border-radius: 8px; font-weight: bold; cursor: pointer;">
+                        Quiz das Almas
+                    </button>
+                </div>
+                <p style="color: #d4b192; font-size: 0.9em;">
+                    <strong>Teste de Conexão:</strong> Cálculo pelos nomes apenas<br>
+                    <strong>Quiz das Almas:</strong> Teste seu conhecimento (nomes opcionais)
+                </p>
+            </div>
         </div>
 
         <div id="game-screen" class="hidden">
@@ -93,9 +106,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
